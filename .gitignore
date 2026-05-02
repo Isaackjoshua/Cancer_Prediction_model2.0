@@ -1,1 +1,57 @@
-.venv
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets and raw data
+datasets/
+data/
+take02/data/
+
+# Model weights and outputs
+models/
+take02/outputs/
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+logs/
+tmp/
+
+# Environment variables
+.env
+.env.*
+
+take02/outputs/vgg16_birads_notebook/final_vgg16_birads.keras
+take02/outputs/vgg16_birads_notebook/best_vgg16_birads.keras
+take02/outputs/vgg16_birads_notebook/best_vgg16_birads.keras
